@@ -48,4 +48,4 @@ For a visual guide, below are the expected outputs for different screen sizes, s
 
 ### Expected Output for Mobile and Tablet View
 
-![Expected Output Mobile](./assets/Expected_Output_Mobile.png)
+![Expected Output Mobile](./assets/Expected_Output_Mobile.png)# Email-Template
