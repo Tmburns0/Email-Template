@@ -1,0 +1,156 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    background-color: #c7c5c5;  /* Light gray background */
+    padding: 10px;
+    border-radius: 5px;  /*  rounded corners */
+  }
+  
+  .sidebar {
+    width: 215px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;  /* Center align vertically */
+    gap: 10px;  /* Space between the image and text */
+    margin-bottom: 20px; /* Space between welcome brock and compose */
+  }
+  
+  .featured-image {
+    width: 40px;  /* Width of the image */
+    height: 40px;  /* Height of the image */
+    border-radius: 0;  
+  }
+  
+  .profile-section h2 {
+    font-size: 13px;  
+  }
+  
+  .compose-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+  
+  .folder-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .folder-list li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .folder-list li:hover {
+    background-color: #c0bdbd;
+  }
+  
+  .folder-list .unread-count {
+    color: orange;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .email-list {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-color: #c0bdbd;  /* Gray background */
+    padding: 20px;
+    border-radius: 5px;  /* Optional: rounded corners */
+  }
+  
+  .email-item {
+    margin-bottom: 10px;
+  }
+  
+  .email-header {
+    display: flex;
+    justify-content: space-between;  /* Space between sender and date */
+    align-items: left;
+  }
+  
+  .highlight {
+    background-color: #f0f0f0;  /* Light gray background */
+    padding: 5px;
+    border-radius: 3px;  /*  rounded border corners */
+  }
+  
+  .email-content {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .email-content h3 {
+    margin-top: 0;
+    font-size: 35px;
+  }
+  
+  .compose-email {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+  }
+  
+  .compose-email textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 30px;
+  }
+  
+  .compose-email button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Responsive Design for Mobile */ 
+  @media (max-width: 768px) { 
+    .container { 
+      flex-direction: column; 
+    } 
+      
+    .sidebar, .main-content { 
+      width: 100%; 
+    } 
+  }
+  

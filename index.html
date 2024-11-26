@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Template Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Sidebar Section -->
+    <div class="sidebar">
+      <div class="profile-section">
+        <img src="https://w7.pngwing.com/pngs/268/996/png-transparent-account-avatar-profile-profile-icon-profile-picture-user-user-profile-business-and-management-line-icon-thumbnail.png" alt="Profile Pic" class="featured-image">   
+        <h2>Welcome, Brock!</h2>
+      </div>
+      <button class="compose-btn">Compose</button>
+      <ul class="folder-list">
+        <li>Inbox <span class="unread-count">(1)</span></li>
+        <li>Tagged</li>
+        <li>Important</li>
+        <li>Sent Mail</li>
+        <li>Drafts</li>
+        <li>Trash</li>
+      </ul>
+    </div>
+
+    <!-- Email List Section -->
+    <div class="email-list">
+      <div class="search-bar">
+        <input type="text" placeholder="Search For Emails">
+      </div>
+      
+      <!-- Email Item 1 -->
+      <div class="email-item active">
+        <div class="email-header">
+          <p class="sender">LinkedIn</p>
+          <p class="date">02:45 PM</p>
+        </div>
+        <p class="preview">You have a new connection Request</p>
+      </div>
+      
+      <!-- Email Item 2 -->
+      <div class="email-item highlight">
+        <div class="email-header">
+          <p class="sender">Michael Scott Daily Quote</p>
+          <p class="date">Jul 3, 2020</p>
+        </div>
+        <p class="preview">I'm optimistic because everyday I get a...</p>
+      </div>
+      
+      <!-- Email Item 3 -->
+      <div class="email-item">
+        <div class="email-header">
+          <p class="sender">Lemar Software</p>
+          <p class="date">Feb 9, 2020</p>
+        </div>
+        <p class="preview">Learn how you can give us money by...</p>
+      </div>
+      
+    </div>
+
+    <!-- Email Content Section -->
+    <div class="email-content">
+      <p class="recipient"><b>To:</b> taylor@lamarsoftware.io</p>
+      <p class="sender-info"><b>From:</b> re-reply@theofficenbc.com</p>
+      <h3 class="subject">Michael Scott Daily Quotes</h3>
+      <div class="email-body">
+        <p>"Friends joke with one another. ‘Hey, your momma’s dead.’ That’s what friends do."</p>
+        <p>"It’s a good thing Russia doesn’t exist anymore."</p>
+        <p>"You cheated on me? When I specifically asked you not to?"</p>
+        <p>"It just seems awfully mean. But sometimes, the ends justify the mean."</p>
+        <p>"Reverse psychology is an awesome tool... Works like a charm!"</p>
+      </div>
+
+      
+      <!-- Reply Section -->
+      <div class="reply-section">
+        <textarea placeholder="Enter Message..."></textarea>
+        <button class="send-btn">Send Email</button>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
